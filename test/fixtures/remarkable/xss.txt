@@ -77,3 +77,10 @@ javascript:alert(1)
 <p>javascript:alert(1)</p>
 <p>javascript:alert(1)</p>
 .
+
+test for CVE-2019-12043
+.
+[click me](\x0ejavascript:alert(1))
+.
+<p>[click me](javascript:alert(1))</p>
+.

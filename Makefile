@@ -19,9 +19,9 @@ demo: lint
 	rm -rf demo/example.json
 
 lint:
-	eslint --reset ./bin ./lib ./support ./test
+	eslint ./bin ./lib ./support ./test
 
-test: lint
+test:
 	NODE_ENV=test mocha -R spec
 	echo "CommonMark stat:\n"
 	./support/specsplit.js test/fixtures/commonmark/spec.txt

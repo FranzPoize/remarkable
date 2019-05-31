@@ -62,3 +62,10 @@ mailto:test@example.com
 <p><a href="mailto:test@example.com">test@example.com</a></p>
 <p><a href="mailto:test@example.com">mailto:test@example.com</a></p>
 .
+
+test for CVE-2019-12043
+.
+[click me](javascript:alert(1))
+.
+<p>[click me](javascript:alert(1))</p>
+.
